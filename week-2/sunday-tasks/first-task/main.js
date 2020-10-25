@@ -17,3 +17,4 @@ p.innerHTML = "new strand" + "<br>"
 for(i = 0 ; i< strand.length ; i++){
     p.innerHTML += i+ strand[i] + "<br>"
 }
+
