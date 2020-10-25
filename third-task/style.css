@@ -1,0 +1,57 @@
+
+
+#container{
+width:120px;
+height: 60px;
+background-color:black;
+position:relative;
+top: 100px;
+}
+.box{
+    position: absolute;
+    padding:12.5px ;
+    background-color: rgb(78, 30, 30);
+    margin:2px;
+
+}
+
+#first{
+ left:2px;
+}
+
+#second{
+ left:30px;
+}
+#third{
+    left:60px;
+}
+#fourth{
+    left:90px;
+}
+hr.new5 {
+    position: absolute;
+    top:27px;
+    border: 1px solid rgb(128, 49, 49);
+    width:114px;
+    margin: 1px;
+}
+
+#first1{
+    top:30px;
+    left:2px;
+   }
+
+   #second1{
+    top:30px;
+    left:30px;
+   }
+   #third1{
+    top:30px;
+    left:60px;
+   }
+   
+   #fourth1{
+    top:30px;
+    left:90px;
+    background-color:black ;
+   }
