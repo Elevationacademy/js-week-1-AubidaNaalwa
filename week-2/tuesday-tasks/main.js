@@ -188,16 +188,16 @@ const fun = function(story, specialChars){
     let answer = {}
     if(!story){
         console.log("ERRROROOROROR")
-    }
-    else if(specialChars.length === 0 || specialChars === undefined){
-        console.log("OK")
+    
     }else{
         let tmp = story.toString();
+        if(specialChars){
+       
         for(let i of specialChars){
             tmp = tmp.toString().split(i).join("");
             console.log("it is "+tmp)
         }
-        console.log("it is "+tmp)
+    }
         let i 
         
         for(i = 0; i< tmp.length;i++){
@@ -207,7 +207,7 @@ const fun = function(story, specialChars){
 
         }
         if(i>0){
-              answer["space"] = 1;  
+              answer["\'\'"] = 1;  
         }
         let lastspace = i-1
         let key = ""
