@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+    input[type=text] {
+      width: 70%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px; 
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+      position: relative;
+      top: 200px;
+    }
+    
+    input[type=text]:focus {
+      width: 100%;
+      position: relative;
+    }
+    </style>
+<title>
+    CGoogle
+</title>
+
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    <h1>
+       
+       CGoogle
+        
+    </h1>
+ 
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+    </form>
+
+    <div>
+        <p id="answer">
+            <script src="main.js"></script>
+        </p>
+
+    </div>
+  
+</body>
+
+</html>
