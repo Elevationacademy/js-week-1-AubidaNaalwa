@@ -147,7 +147,7 @@ arr = [1, 2, 3]
 splice(arr, 0, 0, 0);
 console.log(arr); //should be [0,1,2,3]
 
-
+ 
 // add 2 elements
 arr = [1, 2, 3]
 splice(arr, 0, 0, -1, 0);

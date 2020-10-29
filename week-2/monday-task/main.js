@@ -90,7 +90,7 @@ const ages = [23, 47, 18]
 const people = []
 
 for(let i in names){
-    people.push({name :names[i] , age: ages})
+    people.push({name :names[i] , age: ages[i]})
 }
 console.log(people)
 
